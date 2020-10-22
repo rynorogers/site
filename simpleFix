@@ -1,0 +1,11 @@
+while True:    #When I put Joe in, the code skips to line 11.  What am I doing wrong
+    print ('who are you')
+    name = input()
+    if name != 'Joe':
+        continue
+        print('hello, Joe.  what is the password?')
+        password = input()
+        if password == 'swordfish':
+            break
+            
+    print ('that is the magic word')
